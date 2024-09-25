@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="resources/mmrotate-logo.png" width="450"/>
+  <img src="resources/HSFM.png" width="450"/>
   <div>&nbsp;</div>
   <div align="center">
     <b><font size="5">OpenMMLab website</font></b>
