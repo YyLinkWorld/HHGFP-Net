@@ -1,28 +1,6 @@
-<div align="center">
-  <img src="resources/HSFM.png" width="450"/>
-  <div>&nbsp;</div>
-  <div align="center">
-    <b><font size="5">OpenMMLab website</font></b>
-    <sup>
-      <a href="https://openmmlab.com">
-        <i><font size="4">HOT</font></i>
-      </a>
-    </sup>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <b><font size="5">OpenMMLab platform</font></b>
-    <sup>
-      <a href="https://platform.openmmlab.com">
-        <i><font size="4">TRY IT OUT</font></i>
-      </a>
-    </sup>
-  </div>
-  <div>&nbsp;</div>
-
-
-
 ## Installation
 
-MMRotate depends on [PyTorch](https://pytorch.org/), [MMCV](https://github.com/open-mmlab/mmcv) and [MMDetection](https://github.com/open-mmlab/mmdetection).
+HSGFPNet depends on [mmrotate](https://github.com/open-mmlab/mmrotate),[PyTorch](https://pytorch.org/), [MMCV](https://github.com/open-mmlab/mmcv) and [MMDetection](https://github.com/open-mmlab/mmdetection).
 Below are quick steps for installation.
 Please refer to [Install Guide](https://mmrotate.readthedocs.io/en/latest/install.html) for more detailed instruction.
 
@@ -51,6 +29,5 @@ We provide [colab tutorial](demo/MMRotate_Tutorial.ipynb), and other tutorials f
 
 ## Model Zoo
 
-Results and models are available in the *README.md* of each method's config directory.
-A summary can be found in the [Model Zoo](docs/en/model_zoo.md) page.
+The code that has been published so far has been reorganized according to the naming convention of the modules in the paper, and all the weights used in the experiments will be released after we reorganize the experiments.
 
