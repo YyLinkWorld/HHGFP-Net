@@ -74,13 +74,13 @@ class HSFM(nn.Module):
         super().__init__()
         self.depth = p_i
         self.gamma = gamma
-        # self.srfconv = nn.Conv2d(dim, dim, kernel_size=3,padding=1)
-        # self.mrfconv = nn.Conv2d(dim, dim, kernel_size=5, dilation=1,padding=2)
-        # self.lrfconv = nn.Conv2d(dim, dim, kernel_size=7, dilation=3,padding=9)
+        self.srfconv = nn.Conv2d(dim, dim, kernel_size=3,padding=1)
+        self.mrfconv = nn.Conv2d(dim, dim, kernel_size=5, dilation=1,padding=2)
+        self.lrfconv = nn.Conv2d(dim, dim, kernel_size=7, dilation=3,padding=9)
 
-        self.srfconv = nn.Conv2d(dim, dim, kernel_size=3,padding=1,groups=dim)
-        self.mrfconv = nn.Conv2d(dim, dim, kernel_size=5,padding=2,groups=dim)
-        self.lrfconv = nn.Conv2d(dim, dim, kernel_size=7, dilation=3,padding=9,groups=dim)
+        # self.srfconv = nn.Conv2d(dim, dim, kernel_size=3,padding=1,groups=dim)
+        # self.mrfconv = nn.Conv2d(dim, dim, kernel_size=5,padding=2,groups=dim)
+        # self.lrfconv = nn.Conv2d(dim, dim, kernel_size=7, dilation=3,padding=9,groups=dim)
 
         self.compress = dim // 2
         self.mid = self.compress * 3
@@ -192,7 +192,7 @@ class OverlapPatchEmbed(nn.Module):
         return x, H, W
 
 @ROTATED_BACKBONES.register_module()
-class DMFSN(BaseModule):
+class HSGFPNet(BaseModule):
     def __init__(self, img_size=640, in_chans=3, embed_dims=[64, 128, 256, 512],out_indices=(0, 1, 2, 3),
                 mlp_ratios=[8, 8, 4, 4], drop_rate=0., drop_path_rate=0., norm_layer=partial(nn.LayerNorm,eps = 1e-6),
                 depths=[3, 4, 6, 3], num_stages=4, 
@@ -254,7 +254,7 @@ class DMFSN(BaseModule):
                     normal_init(
                         m, mean=0, std=math.sqrt(2.0 / fan_out), bias=0)
         else:
-            super(DMFSN, self).init_weights()
+            super(HSGFPNet, self).init_weights()
 
     def freeze_patch_emb(self):
         self.patch_embed1.requires_grad = False
