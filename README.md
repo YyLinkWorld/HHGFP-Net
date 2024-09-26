@@ -6,7 +6,8 @@ Recently, deep learning-based remote sensing object detection has been widely ex
 
 ## News!
 
-- 2024-9-24 This research has been submitted as a paper to IEEE TGRS. the code from the paper has been published on this page (we will continue to tweak and optimize it).
+- 2024-9-24 This research has been submitted as a paper to IEEE TGRS. 
+- 2024-9-25 The code from the paper has been published on this page (we will continue to tweak and optimize it).
 
 ## HSFM
 ![image](./resources/HSFM.png)
