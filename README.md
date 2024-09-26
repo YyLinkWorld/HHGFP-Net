@@ -44,6 +44,8 @@ Openmmlab provide [colab tutorial](demo/MMRotate_Tutorial.ipynb), and other tuto
 - [useful tools](docs/en/tutorials/useful_tools.md)
 
 ## Results
+[HSFEN pre-trained 300epoch weights on ImageNet-1k](https://pan.baidu.com/s/1edUqy3Enz6cbbwdRjE3MnA) extraction code: aaa0
+
 | Dataset | Train | Val | Test | Multi-Scale|Single-Scale|epoch|Lowest mAP|Best mAP |
 | ------------ | ------- | ------ | -------- | ------- | ------ | ------- | ----- | ------ |
 |DOTA-v1.0 | train+val | val | test | no | yes | 12 | 79.55 |80.67 |
