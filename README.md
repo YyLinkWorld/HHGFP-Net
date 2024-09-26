@@ -9,10 +9,10 @@ Recently, deep learning-based remote sensing object detection has been widely ex
 - 2024-9-24 This research has been submitted as a paper to IEEE TGRS. the code from the paper has been published on this page (we will continue to tweak and optimize it).
 
 ## HSFM
-![image](resources\HSFM.png)
+![image](./resources/HSFM.png)
 
 ## GFP-FPN
-![image](resources\GFP-FPN.png)
+![image](./resources/GFP-FPN.png)
 
 ## Installation
 
@@ -59,32 +59,32 @@ Openmmlab provide [colab tutorial](demo/MMRotate_Tutorial.ipynb), and other tuto
 - (b) LSKNet
 - (c) HSGFP-Net
 
-![image](resources\analysis_heatmap.png)
+![image](./resources/analysis_heatmap.png)
 
 ### Heatmap Comparisons of LSKNet and HSGFP-Net in deep layer at the bachone.
 - (a) input RGB image
 - (b) LSKNet
 - (c) HSGFP-Net
 
-![image](resources\analysis_heatmap_deep.png)
+![image](./resources/analysis_heatmap_deep.png)
 
 ### Heatmap Comparisons of FPN and GFP-FPN before the final detection.
 - (a) input RGB image
 - (b) FPN
 - (c) GFP-FPN
-![image](resources\AnaysisFPN.png)
+![image](./resources/AnaysisFPN.png)
 
 ### Results on  DOTA-v1.0
-![image](resources\analysis_dota.png)
+![image](./resources/analysis_dota.png)
 
 ### Results on  DOTA-v1.5
-![image](resources\analysis_dota15.png)
+![image](./resources/analysis_dota15.png)
 
 ### Results on  DIOR
-![image](resources\analysis_dior.png)
+![image](./resources/analysis_dior.png)
 
 ### Results on  STAR
-![image](resources\analysis_star.png)
+![image](./resources/analysis_star.png)
 
 ## Abaout the code and weights
 
