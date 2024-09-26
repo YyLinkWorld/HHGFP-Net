@@ -44,7 +44,7 @@ Openmmlab provide [colab tutorial](demo/MMRotate_Tutorial.ipynb), and other tuto
 - [useful tools](docs/en/tutorials/useful_tools.md)
 
 ## Results
-[HSFEN pre-trained 300epoch weights on ImageNet-1k](https://pan.baidu.com/s/1edUqy3Enz6cbbwdRjE3MnA) extraction code: aaa0
+[HSFEN pre-trained 300 epoch weights on ImageNet-1k](https://pan.baidu.com/s/1edUqy3Enz6cbbwdRjE3MnA) extraction code: aaa0
 
 | Dataset | Train | Val | Test | Multi-Scale|Single-Scale|epoch|Lowest mAP|Best mAP |
 | ------------ | ------- | ------ | -------- | ------- | ------ | ------- | ----- | ------ |
@@ -92,5 +92,12 @@ Openmmlab provide [colab tutorial](demo/MMRotate_Tutorial.ipynb), and other tuto
 
 The code that has been published so far has been reorganized according to the naming convention of the modules in the paper, and all the weights used in the experiments will be released after we reorganize the experiments.
 
+### Copyright
 
+The project has been licensed by Apache-2.0. Please refer to for details. [LICENSE.txt](./LICENSE)
 
+## Thanks
+[MMRotate](https://github.com/open-mmlab/mmrotate)
+[MMYOLO](https://github.com/open-mmlab/mmrotate)
+[MMPretrain](https://github.com/open-mmlab/mmrotate)
+Center for Advanced Computing, School of Computer Science, China Three Gorges University
