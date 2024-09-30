@@ -1,5 +1,5 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from .re_resnet import ReResNet
-from .hsgfpnet import HSGFPNet
+from .hhgfpnet import HSGFPNet
 
-__all__ = ['ReResNet','HSGFPNet']
+__all__ = ['ReResNet','HHGFPNet']
