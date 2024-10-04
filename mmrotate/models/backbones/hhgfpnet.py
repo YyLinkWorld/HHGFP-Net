@@ -171,7 +171,7 @@ class Block(nn.Module):
         return x
 
 
-class OverlapPatchEmbed(nn.Module):
+class Downsampling(nn.Module):
     """ Image to Patch Embedding
     """
 
@@ -223,7 +223,7 @@ class HHFENet(BaseModule):
         for i in range(num_stages):
             gamma = sum(depths)
             p_i = sum(depths[:i])
-            patch_embed = OverlapPatchEmbed(img_size=img_size if i == 0 else img_size // (2 ** (i + 1)),
+            patch_embed = Downsampling(img_size=img_size if i == 0 else img_size // (2 ** (i + 1)),
                                             patch_size=7 if i == 0 else 3,
                                             stride=4 if i == 0 else 2,
                                             in_chans=in_chans if i == 0 else embed_dims[i - 1],

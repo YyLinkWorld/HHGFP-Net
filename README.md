@@ -46,15 +46,14 @@ Openmmlab provide [colab tutorial](demo/MMRotate_Tutorial.ipynb), and other tuto
 ## Results
 [HHFEN pre-trained 300 epoch weights on ImageNet-1k](https://pan.baidu.com/s/1edUqy3Enz6cbbwdRjE3MnA) extraction code: aaa0
 
-| Dataset | Train | Val | Test | Multi-Scale|Single-Scale|epoch|Lowest mAP|Best mAP |
-| ------------ | ------- | ------ | -------- | ------- | ------ | ------- | ----- | ------ |
-|DOTA-v1.0 | train+val | val | test | no | yes | 12 | 79.55 |80.67 |
-|DOTA-v1.0 | train+val | val | test | yes | no | 12 | 80.23 |81.78 |
-|DOTA-v1.5 | train+val | val | test | no | yes | 12 | 74.37 |77.54 |
-|DIOR | train+val | test |test| no | yes | 12 | 71.11 |72.34 |
-|STAR|train+val | val |test | no | yesy |24| 37.47 |39.90 |
+| Dataset | Train | Val | Test | Multi-Scale|epoch|Lowest mAP|Best mAP |
+| ------------ | ------- | ------| ------- | ------ | ------- | ----- | ------ |
+|DOTA-v1.0 | train+val | val | test | yes | 12 | 80.15 |80.67 |
+|DOTA-v1.5 | train+val | val | test | yes  | 12 | 74.37 |77.54 |
+|DIOR | train+val | test |test| no  | 12 | 71.11 |72.34 |
+|STAR|train+val | val |test | yes |12| 37.47 |39.90 |
 
-## Visulization
+## Visualization
 
 ### Heatmap Comparisons of LSKNet and HHGFP-Net in shallow layer at the bachone.
 - (a) input RGB image
