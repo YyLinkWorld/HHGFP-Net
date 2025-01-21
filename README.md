@@ -54,25 +54,22 @@ Openmmlab provide [colab tutorial](demo/MMRotate_Tutorial.ipynb), and other tuto
 
 ## Visualization
 
-### Heatmap Comparisons of LSKNet and HHGFP-Net in shallow layer at the bachone.
+### Heatmap Comparisons of LSKNet and HHGFP-Net in shallow layer at the backone.
 - (a) input RGB image
 - (b) LSKNet
 - (c) HHGFP-Net
 
-![image](./resources/analysis_heatmap.png)
+![image](./resources/attentionmap.jpg)
 
-### Heatmap Comparisons of LSKNet and HHGFP-Net in deep layer at the bachone.
-- (a) input RGB image
-- (b) LSKNet
-- (c) HHGFP-Net
-
-![image](./resources/analysis_heatmap_deep.png)
 
 ### Heatmap Comparisons of FPN and GFP-FPN before the final detection.
 - (a) input RGB image
 - (b) FPN
 - (c) GFP-FPN
 ![image](./resources/AnaysisFPN.png)
+
+### Visualization of GFRB
+![image](./resources/visual_geometric.png)
 
 ### Results on  DOTA-v1.0
 ![image](./resources/analysis_dota.png)
