@@ -59,7 +59,7 @@ Openmmlab provide [colab tutorial](demo/MMRotate_Tutorial.ipynb), and other tuto
 - (b) LSKNet
 - (c) HHGFP-Net
 
-![image](./resources/attentionmap.jpg)
+![image](./resources/attentionmap.png)
 
 
 ### Heatmap Comparisons of FPN and GFP-FPN before the final detection.
