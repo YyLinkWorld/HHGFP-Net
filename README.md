@@ -6,7 +6,7 @@ Recently, deep learning-based remote sensing object detection has been widely ex
 
 ## News!
 - 2024-9-25 The code from the paper has been published on this page.
-- 2025-2-7 This work has been accepted by IEEE TGRS.
+- 2025-2-7 This work has been accepted by IEEE TGRS.([paper link](https://ieeexplore.ieee.org/document/10884529))
 
 ## HHRM
 ![image](./resources/HHRM.png)
