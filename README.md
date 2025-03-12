@@ -6,7 +6,7 @@ Recently, deep learning-based remote sensing object detection has been widely ex
 
 ## News!
 - 2024-9-25 The code from the paper has been published on this page.
-- 2025-3-7 This work has been accepted by IEEE TGRS.
+- 2025-2-7 This work has been accepted by IEEE TGRS.
 
 ## HHRM
 ![image](./resources/HHRM.png)
@@ -55,7 +55,7 @@ Openmmlab provide [colab tutorial](demo/MMRotate_Tutorial.ipynb), and other tuto
 
 ## Visualization
 
-### Heatmap Comparisons of LSKNet and HHGFP-Net in shallow layer at the backone.
+### Heatmap Comparisons of LSKNet and HHGFP-Net in shallow layer at the backbone.
 - (a) input RGB image
 - (b) LSKNet
 - (c) HHGFP-Net
