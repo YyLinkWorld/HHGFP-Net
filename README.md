@@ -5,7 +5,8 @@
 Recently, deep learning-based remote sensing object detection has been widely explored and obtained remarkable performance. However, most existing multi-scale feature extraction methods neglect exploring the interfering representation of different hierarchical features in the backbone, which is crucial for learning more discriminative features. Moreover, FPN and its variants have difficulty in effectively perceiving the pose and salient information of remote sensing objects, leading to reduced detection accuracy. To address these issues, we propose a Hierarchical Heterogeneous Geometric Foreground Perception Network (HHGFP-Net) for remote sensing object detection. Specifically, a Hierarchical Heterogeneous Receptive-ﬁled Module (HHRM) is proposed to reward and penalize the feature information of the corresponding levels according to the differences between the shallow and deep feature layers in the backbone, improving discriminative feature ability. Furthermore, a Geometric Foreground Perception Feature Pyramid Network (GFP-FPN) is developed to refine geometric shapes and enhance foreground contents, providing more precise feature representations for objects, particularly small objects. Experimental results on four challenging remote sensing object detection datasets demonstrate that our HHGFP-Net achieves state-of-the-art performance.
 
 ## News!
-- 2024-9-25 The code from the paper has been published on this page. 
+- 2024-9-25 The code from the paper has been published on this page.
+- 2025-3-7 This work has been accepted by IEEE TGRS.
 
 ## HHRM
 ![image](./resources/HHRM.png)
